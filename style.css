@@ -1,0 +1,42 @@
+body {
+    color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+}
+
+div.tab {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+table {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+th, td {
+    padding: 10px, 14px 14px, 14px;
+}
+th {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 80%;
+    border-bottom: 1px solid #4d4d4d;
+    text-align: left;
+}
+tr.pula {
+    background-color: lightskyblue;
+}
+
+tr:hover {
+    background-color: rgba(0, 255, 255, 0.267);
+}
+
+.dinheiro {
+    text-align: right;
+}
